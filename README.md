@@ -40,7 +40,7 @@ Piping again to cut -d "." sets delimiter to . and -f 1-4 outputs the first four
 
 <br />
 <br />
-| sort to short initial output, then | uniq -c to tally the total count per unique output, then | sort -nr to sort again numerically in reverse showing the top most unique ips to the least most unique ips within the pcap. 
+| sort to sort initial output, then | uniq -c to tally the total count per unique output, then | sort -nr to sort again numerically in reverse showing the top most unique ips to the least most unique ips within the pcap. 
 
 ![5) sorting unique count shows top 3 src ips](https://github.com/user-attachments/assets/9b77c772-4d56-410e-8a08-e7c057c7fcc1)
 
